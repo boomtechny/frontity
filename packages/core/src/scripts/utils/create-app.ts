@@ -60,6 +60,8 @@ export default async ({
   // Start listening.
   server.listen(port, () => {
     console.log(
+              console.log('\x1b[36m','BT Modified');
+
       `\n\nSERVER STARTED -- Listening @ ${url}\n  - mode: ${mode}\n  - target: ${target}\n  - public-path: ${publicPath}\n\n`
     );
   });
